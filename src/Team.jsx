@@ -35,7 +35,7 @@ const Team = () => {
               </ul>
             </div>
           </div>
-          <h3 className="h5 mb-1"><a href="#!" className='text-reset'>Nikuj Lathiya</a></h3>
+          <h3 className="h5 mb-1"><a href="#!" className='text-reset'>Nikunj Lathiya</a></h3>
           <p className="mb-0" >Co-Founder</p>
         </div>
       </div>

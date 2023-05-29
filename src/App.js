@@ -8,9 +8,9 @@ import Service from './Service';
 import Contect from './Contect';
 import Blog from './Blog';
 import Testimonial from './Testimonial';
-import Client from './Client';
 import Product from './Product';
 import Team from './Team';
+import Client from './Client';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <BrowserRouter>
            <Routes>
                 <Route path='/' element={<Layout/>}>
-                    <Route path='/Home' element={<Home/>}/>
+                    <Route path='/' element={<Home/>}/>
                     <Route path='/About'  element={<About/>} />
                     <Route path='/Update'  element={<Update/>} />
                     <Route path='/Service'  element={<Service/>} />
